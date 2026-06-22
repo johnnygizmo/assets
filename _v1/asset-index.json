@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0.0",
+  "asset_size_bytes": 364866950,
+  "asset_count": 513,
+  "file_count": 20,
+  "pages": [
+    {
+      "url": "_v1/assets-00000.json",
+      "hash": "SHA256:0701465ed1bf2c5a39307218f67cd29e8b21f6b4d4ef87cc593fff888f4090e2"
+    }
+  ],
+  "catalogs": [
+    {
+      "path": "Materials",
+      "uuids": [
+        "2000a60d-d272-4360-b5cb-487a869f7a2b"
+      ],
+      "simple_name": "Materials"
+    },
+    {
+      "path": "Models",
+      "uuids": [
+        "a57eaa47-0ee2-4fa0-a031-6d8952dfcde7"
+      ],
+      "simple_name": "Models"
+    },
+    {
+      "path": "Models/Archviz",
+      "uuids": [
+        "619745b9-10a6-4daf-8ee4-98c61577cdd5"
+      ],
+      "simple_name": "Models-Archviz"
+    },
+    {
+      "path": "Models/Decorations",
+      "uuids": [
+        "a7f1f221-bd6e-4b2e-88e6-a9271884f633"
+      ],
+      "simple_name": "Models-Decorations"
+    },
+    {
+      "path": "Models/Electronics",
+      "uuids": [
+        "3747486f-38d9-475a-a69c-1b448537c49c"
+      ],
+      "simple_name": "Models-Electronics"
+    },
+    {
+      "path": "Models/Furniture",
+      "uuids": [
+        "4db385f8-d60a-4579-8662-5580119df70e"
+      ],
+      "simple_name": "Models-Furniture"
+    },
+    {
+      "path": "Models/Furniture/Seating",
+      "uuids": [
+        "84188eab-181e-4e79-894c-28d4a6e908cc"
+      ],
+      "simple_name": "Models-Furniture-Seating"
+    },
+    {
+      "path": "Models/Furniture/Shelving",
+      "uuids": [
+        "3cfe8734-00a7-4e2a-8dfb-db153185fe47"
+      ],
+      "simple_name": "Models-Furniture-Shelving"
+    },
+    {
+      "path": "Models/Furniture/Tables",
+      "uuids": [
+        "4e3169bc-ef24-4e08-99fa-4cc779436966"
+      ],
+      "simple_name": "Models-Furniture-Tables"
+    },
+    {
+      "path": "Models/Kitchenware",
+      "uuids": [
+        "dfd8cc1c-34b3-400b-89a8-47f3a0768f90"
+      ],
+      "simple_name": "Models-Kitchenware"
+    },
+    {
+      "path": "Models/Lighting",
+      "uuids": [
+        "79d891f5-527e-44d5-a703-d94729e1a4d0"
+      ],
+      "simple_name": "Models-Lighting"
+    },
+    {
+      "path": "Models/Other Household",
+      "uuids": [
+        "cad6d698-5bbc-4deb-bb5b-f5032c247afc"
+      ],
+      "simple_name": "Models-Other Household"
+    },
+    {
+      "path": "Models/Pots and Vases",
+      "uuids": [
+        "ac7bbc59-077e-46fa-b5d8-2033a96caa66"
+      ],
+      "simple_name": "Models-Pots and Vases"
+    },
+    {
+      "path": "Models/Toys and Games",
+      "uuids": [
+        "a831108d-c88b-4557-847e-032a729caeb3"
+      ],
+      "simple_name": "Models-Toys and Games"
+    },
+    {
+      "path": "Nodes",
+      "uuids": [
+        "a8574592-9053-4bc1-bc2d-e50d06753326"
+      ],
+      "simple_name": "Nodes"
+    },
+    {
+      "path": "Nodes/Profile Curves",
+      "uuids": [
+        "ae515495-a4c7-4e17-8de9-a0b02a912714"
+      ],
+      "simple_name": "Nodes-Profile Curves"
+    }
+  ]
+}
