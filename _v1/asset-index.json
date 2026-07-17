@@ -1,26 +1,28 @@
 {
   "schema_version": "1.0.0",
-  "asset_size_bytes": 225523064,
+  "asset_size_bytes": 100768345,
   "asset_count": 480,
-  "file_count": 480,
+  "file_count": 14,
   "pages": [
     {
       "url": "_v1/assets-00000.json",
-      "hash": "SHA256:ed80965044046f76e702325d63d1cad2ae562c2b5614108895e44b8d74dbef09"
+      "hash": "SHA256:ec99a437c27ddb6f704d714b6786edbb3c1780c8ba380116f37ec7b0db57ed06"
     }
   ],
   "catalogs": [
     {
       "path": "Models",
       "uuids": [
-        "349581ba-42fc-4e61-b780-ec4c86b0fef3"
+        "349581ba-42fc-4e61-b780-ec4c86b0fef3",
+        "40893042-0984-4b36-9082-68c50956c194"
       ],
       "simple_name": "Models"
     },
     {
       "path": "Models/Electronics",
       "uuids": [
-        "fc405503-f772-49dd-b301-e7a4314611f3"
+        "fc405503-f772-49dd-b301-e7a4314611f3",
+        "72bec9de-e6d6-4484-a30c-8ee2af9c23f8"
       ],
       "simple_name": "Models-Electronics"
     },

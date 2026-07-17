@@ -1,0 +1,24 @@
+# This is an Asset Catalog Definition file for Blender.
+#
+# Empty lines and lines starting with `#` will be ignored.
+# The first non-ignored line should be the version indicator.
+# Other lines are of the format "UUID:catalog/path/for/assets:simple catalog name"
+
+VERSION 1
+
+349581ba-42fc-4e61-b780-ec4c86b0fef3:Models:Models
+fc405503-f772-49dd-b301-e7a4314611f3:Models/Electronics:Models-Electronics
+aef745a7-7ede-4409-bab5-81d5b4129afb:Models/Houseware:Models-Houseware
+cc671d1d-69f4-4515-848a-4ec567fa8cd8:Models/Houseware/Beds:Models-Houseware-Beds
+224dba08-daa1-44ee-9be7-656155b331c6:Models/Houseware/Lighting:Models-Houseware-Lighting
+5a1d6209-7d47-4ae6-9689-d350d6d32e2b:Models/Houseware/Other Furniture:Models-Houseware-Other Furniture
+f70bc6bc-4084-4ce5-bc5d-6ba806600da9:Models/Houseware/Pots & Vases:Models-Houseware-Pots & Vases
+af6a4666-690c-4eca-bbc5-ec0371f93431:Models/Houseware/Seating:Models-Houseware-Seating
+3456f9a8-db30-4d26-b27d-46409c8af0f3:Models/Houseware/Shelving:Models-Houseware-Shelving
+4a3a7d82-9a57-431f-9cac-b0b16f5744f9:Models/Houseware/Tables:Models-Houseware-Tables
+61fb4ea3-0c89-4719-b3c2-a5b4ac11cdac:Models/Instruments:Models-Instruments
+3ead4ace-fdfe-4e9c-8577-1f8ebc1d1c72:Models/Utility:Models-Utility
+cb0f88ef-a64b-4e2f-981b-1e6e9f9df6d6:Models/Utility/Archviz:Models-Utility-Archviz
+c17ba8d7-bd82-499d-9d95-d6d55c48f647:Models/Utility/Archviz/Kitchen Cabinets:Models-Utility-Archviz-Kitchen Cabinets
+a3358c65-16ac-4ea1-bdba-88deca0ec48f:Models/Utility/Archviz/Moulding:Models-Utility-Archviz-Moulding
+5cf4f166-6cbd-49d9-8dc0-5a9ef5970156:Models/Utility/Archviz/Outlet Covers:Models-Utility-Archviz-Outlet Covers
