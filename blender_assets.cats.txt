@@ -22,9 +22,3 @@ cb0f88ef-a64b-4e2f-981b-1e6e9f9df6d6:Models/Utility/Archviz:Models-Utility-Archv
 c17ba8d7-bd82-499d-9d95-d6d55c48f647:Models/Utility/Archviz/Kitchen Cabinets:Models-Utility-Archviz-Kitchen Cabinets
 a3358c65-16ac-4ea1-bdba-88deca0ec48f:Models/Utility/Archviz/Moulding:Models-Utility-Archviz-Moulding
 5cf4f166-6cbd-49d9-8dc0-5a9ef5970156:Models/Utility/Archviz/Outlet Covers:Models-Utility-Archviz-Outlet Covers
-ec107730-75ba-496b-8b58-e7ec692fabea:Nodes:Nodes
-45a454f8-a95f-4f71-8814-d6e26a7be557:Nodes/Curves:Nodes-Curves
-28df526e-d36e-4632-adb0-80e25e2528df:Nodes/Generator:Nodes-Generator
-b7f1dd7b-ae5a-4678-91f1-9ce8e957e49f:Nodes/Mesh:Nodes-Mesh
-41d7156d-5108-459d-82aa-4a88e9c0e079:Nodes/Text:Nodes-Text
-71777356-8bbe-4c8e-870f-a4e4c19b823d:Nodes/Utility:Nodes-Utility

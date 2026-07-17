@@ -2,13 +2,13 @@
   "api_versions": {
     "v1": {
       "url": "_v1/asset-index.json",
-      "hash": "SHA256:0b99c69507e5eabe2be75dc60c5406e15d9b02fd77b5b44e2a27ea2b74e674a4"
+      "hash": "SHA256:f3c25cd5ae363293f7301c4c3d9f8446ffa62a0dbcad632ccc913c81dfb02e00"
     }
   },
-  "name": "Johnnygizmo's Asset Library",
+  "name": "Your Asset Library",
   "contact": {
-    "name": "Johnny Matthews",
-    "url": "https://youtube.com/johnnymatthews",
-    "email": "johnny.matthews+assetlib@gmail.com"
+    "name": "Your Name",
+    "url": "https://example.org/",
+    "email": "example@example.org"
   }
 }

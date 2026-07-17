@@ -1,1 +1,366 @@
-temp
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JohnnyGizmo Blender Asset Library</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: #1a1a2e;
+      color: #e0e0e0;
+      line-height: 1.65;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0f3460 0%, #16213e 60%, #e94560 100%);
+      padding: 3.5rem 2rem 3rem;
+      text-align: center;
+    }
+
+    header .logo {
+      font-size: 2.8rem;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      color: #ffffff;
+    }
+
+    header .logo span {
+      color: #e94560;
+    }
+
+    header .tagline {
+      margin-top: 0.6rem;
+      font-size: 1.1rem;
+      color: #aac4e0;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    section {
+      padding: 3rem 0 2rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 1rem;
+      border-left: 4px solid #e94560;
+      padding-left: 0.75rem;
+    }
+
+    p {
+      color: #c0c8d8;
+      margin-bottom: 1rem;
+    }
+
+    /* URL copy box */
+    .url-box {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      background: #0f3460;
+      border: 1px solid #e94560;
+      border-radius: 8px;
+      padding: 0.85rem 1.1rem;
+      margin: 1.5rem 0;
+      flex-wrap: wrap;
+    }
+
+    .url-box code {
+      flex: 1;
+      font-size: 1rem;
+      font-family: 'Cascadia Code', 'Consolas', monospace;
+      color: #80d4f7;
+      word-break: break-all;
+    }
+
+    .copy-btn {
+      background: #e94560;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      padding: 0.45rem 1.1rem;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s;
+      white-space: nowrap;
+    }
+
+    .copy-btn:hover { background: #c73652; }
+    .copy-btn.copied { background: #2ecc71; }
+
+    /* Steps */
+    ol.steps {
+      list-style: none;
+      counter-reset: step;
+      margin-top: 1.25rem;
+    }
+
+    ol.steps li {
+      counter-increment: step;
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1.25rem;
+      align-items: flex-start;
+    }
+
+    ol.steps li::before {
+      content: counter(step);
+      background: #e94560;
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.9rem;
+      min-width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      margin-top: 0.1rem;
+    }
+
+    ol.steps li .step-text {
+      color: #c0c8d8;
+    }
+
+    ol.steps li .step-text strong {
+      color: #ffffff;
+    }
+
+    ol.steps li .step-text kbd {
+      background: #0f3460;
+      border: 1px solid #3a6ea8;
+      border-radius: 4px;
+      padding: 0.1rem 0.45rem;
+      font-family: monospace;
+      font-size: 0.85rem;
+      color: #80d4f7;
+    }
+
+    /* Import method table */
+    .methods {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1.25rem;
+      font-size: 0.93rem;
+    }
+
+    .methods th {
+      text-align: left;
+      padding: 0.6rem 0.9rem;
+      background: #0f3460;
+      color: #80d4f7;
+      font-weight: 600;
+      border-bottom: 2px solid #e94560;
+    }
+
+    .methods td {
+      padding: 0.6rem 0.9rem;
+      border-bottom: 1px solid #253555;
+      color: #c0c8d8;
+      vertical-align: top;
+    }
+
+    .methods tr:last-child td { border-bottom: none; }
+    .methods td strong { color: #ffffff; }
+
+    .badge-recommended {
+      background: #2ecc71;
+      color: #0a2010;
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 0.1rem 0.45rem;
+      border-radius: 10px;
+      margin-left: 0.4rem;
+      vertical-align: middle;
+    }
+
+    /* Note callout */
+    .note {
+      background: #0f3460;
+      border-left: 4px solid #f0a500;
+      border-radius: 0 8px 8px 0;
+      padding: 0.85rem 1.1rem;
+      margin-top: 1.25rem;
+      color: #c0c8d8;
+      font-size: 0.93rem;
+    }
+
+    .note strong { color: #f0a500; }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: #556080;
+      font-size: 0.85rem;
+      border-top: 1px solid #253555;
+      margin-top: 2rem;
+    }
+
+    footer a { color: #3a6ea8; text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">JohnnyGizmo <span>Asset Library</span></div>
+    <div class="tagline">An Online Blender Asset Repository — 3D models, materials, and more</div>
+  </header>
+
+  <div class="container">
+
+    <section>
+      <h2>About This Library</h2>
+      <p>
+        This is an online Blender asset repository hosted at the URL below. It contains curated
+        asset packs including furniture, electronics, housewares, lamps, planters, shelves, and more —
+        ready to drag and drop directly into your Blender scenes via the Asset Browser.
+      </p>
+      <p>
+        Add the URL to Blender's Asset Library preferences and all assets become immediately
+        available without downloading anything manually.
+      </p>
+
+      <div class="url-box">
+        <code id="library-url">https://johnnygizmo.github.io/assets/</code>
+        <button class="copy-btn" onclick="copyUrl()">Copy URL</button>
+      </div>
+    </section>
+
+    <section>
+      <h2>How to Add This Library in Blender</h2>
+      <p>Requires Blender 4.3 or later. Tested with Blender 5.2.</p>
+
+      <ol class="steps">
+        <li>
+          <div class="step-text">
+            Open <strong>Edit &rarr; Preferences</strong> (or press <kbd>Ctrl</kbd> + <kbd>,</kbd>).
+          </div>
+        </li>
+        <li>
+          <div class="step-text">
+            Select the <strong>File Paths</strong> section from the left sidebar, then scroll down to
+            <strong>Asset Libraries</strong>.
+          </div>
+        </li>
+        <li>
+          <div class="step-text">
+            Click the <strong>+</strong> (Add) button in the Asset Libraries list to add a new entry.
+          </div>
+        </li>
+        <li>
+          <div class="step-text">
+            In the new entry, change the type from <em>Local</em> to <strong>Online Library</strong>
+            using the drop-down on the left side of the row.
+          </div>
+        </li>
+        <li>
+          <div class="step-text">
+            Paste the URL above into the <strong>URL</strong> field.
+          </div>
+        </li>
+        <li>
+          <div class="step-text">
+            Give the library a name (e.g. <strong>JohnnyGizmo Assets</strong>) — this is only used
+            inside Blender to identify it.
+          </div>
+        </li>
+        <li>
+          <div class="step-text">
+            Set your preferred <strong>Import Method</strong> (see below), then close Preferences.
+            The library will appear in the <strong>Asset Browser</strong> immediately.
+          </div>
+        </li>
+      </ol>
+
+      <div class="note">
+        <strong>Note:</strong> Online access must be enabled in Blender. Go to
+        <em>Edit &rarr; Preferences &rarr; System</em> and ensure <strong>Online Access</strong>
+        is turned on.
+      </div>
+    </section>
+
+    <section>
+      <h2>Import Methods</h2>
+      <p>Choose how assets are brought into your blend-file when you use them from the Asset Browser.</p>
+
+      <table class="methods">
+        <thead>
+          <tr>
+            <th>Method</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Append</strong></td>
+            <td>
+              Creates a fully independent copy of the asset and all its dependencies
+              (meshes, materials, etc.). Every import creates new data. No ongoing connection
+              to this library.
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Append (Reuse Data)</strong><span class="badge-recommended">Recommended</span></td>
+            <td>
+              Like Append, but Blender remembers previously imported assets and reuses compatible
+              data on subsequent imports — avoiding duplicates for things like shared materials
+              or meshes.
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Pack</strong></td>
+            <td>
+              Imports as linked data and immediately packs it into the blend-file, creating a
+              self-contained file. Useful for archiving or sharing projects.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="note">
+        <strong>Note:</strong> <em>Link</em> is not supported for online asset libraries. Use
+        Append, Append (Reuse Data), or Pack instead.
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>
+      Setup instructions based on the
+      <a href="https://docs.blender.org/manual/en/5.2/editors/preferences/asset_libraries.html" target="_blank" rel="noopener">
+        Blender 5.2 Asset Libraries documentation
+      </a>
+      &mdash; licensed CC-BY-SA 4.0.
+    </p>
+  </footer>
+
+  <script>
+    function copyUrl() {
+      const url = document.getElementById('library-url').textContent;
+      navigator.clipboard.writeText(url).then(() => {
+        const btn = document.querySelector('.copy-btn');
+        btn.textContent = 'Copied!';
+        btn.classList.add('copied');
+        setTimeout(() => {
+          btn.textContent = 'Copy URL';
+          btn.classList.remove('copied');
+        }, 2000);
+      });
+    }
+  </script>
+
+</body>
+</html>
