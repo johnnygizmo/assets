@@ -1,6 +1,6 @@
 {
-  "asset_count": 477,
-  "file_count": 477,
+  "asset_count": 480,
+  "file_count": 480,
   "assets": [
     {
       "name": "Nordli Full  Bed",
@@ -2462,6 +2462,35 @@
       }
     },
     {
+      "name": "Pillar Candle Holder 2",
+      "id_type": "OBJECT",
+      "files": [
+        "AssetPacks/Asset Pack - HousewaresAndDecorationsV3_Repack/Pillar Candle Holder 2.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "AssetPacks/Asset%20Pack%20-%20HousewaresAndDecorationsV3_Repack/Pillar%20Candle%20Holder%202_thumbnails/Object/pillar-candle-holder-2.webp",
+        "hash": "SHA256:be0ea525880046997b5c7b66af2e6976100c5a95147287a0be89033719a7604c"
+      },
+      "meta": {
+        "catalog_id": "aef745a7-7ede-4409-bab5-81d5b4129afb",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.10836520045995712,
+              0.10836523771286011,
+              0.01685904897749424
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
       "name": "Plastic Basket",
       "id_type": "OBJECT",
       "files": [
@@ -3586,6 +3615,35 @@
               0.041260987520217896,
               0.041260987520217896,
               0.06227505952119827
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Desk Lamp",
+      "id_type": "OBJECT",
+      "files": [
+        "AssetPacks/Asset Pack - Lamps_Repack/Desk Lamp.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "AssetPacks/Asset%20Pack%20-%20Lamps_Repack/Desk%20Lamp_thumbnails/Object/desk-lamp.webp",
+        "hash": "SHA256:933b4941e15f91b299b8dbc521ea50baac1a771a3e4aa2c17adc65145be792b5"
+      },
+      "meta": {
+        "catalog_id": "224dba08-daa1-44ee-9be7-656155b331c6",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              0.2339998483657837,
+              0.2008664309978485,
+              0.36173397302627563
             ],
             "itemtype": "IDP_FLOAT"
           }
@@ -6949,6 +7007,35 @@
             "value": [
               1.708627700805664,
               1.642559289932251,
+              1.6329925060272217
+            ],
+            "itemtype": "IDP_FLOAT"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cornerbead 6155 B",
+      "id_type": "OBJECT",
+      "files": [
+        "AssetPacks/Asset Pack - MoldingProfiles_Repacked/Cornerbead 6155 B.blend"
+      ],
+      "bl_versions": {
+        "min": "5.3"
+      },
+      "thumbnail": {
+        "url": "AssetPacks/Asset%20Pack%20-%20MoldingProfiles_Repacked/Cornerbead%206155%20B_thumbnails/Object/cornerbead-6155-b.webp",
+        "hash": "SHA256:1d092b4fd3f01d32ba1c41225ef397d165c24e9dca5686aab97ff1601fa48880"
+      },
+      "meta": {
+        "catalog_id": "a3358c65-16ac-4ea1-bdba-88deca0ec48f",
+        "properties": [
+          {
+            "name": "dimensions",
+            "type": "IDP_ARRAY",
+            "value": [
+              1.6666615009307861,
+              1.6435863971710205,
               1.6329925060272217
             ],
             "itemtype": "IDP_FLOAT"
@@ -13951,8 +14038,8 @@
     },
     {
       "path": "AssetPacks/Asset Pack - Chairs_Repack/Ingolf Chair.blend",
-      "size_in_bytes": 136581,
-      "hash": "SHA256:7c979fb89006cfac40cd628e816f3ee7ac74198786c9019033d39852a7dce568",
+      "size_in_bytes": 136587,
+      "hash": "SHA256:b07f96e42492527f1df0bcc173ffea977783d87f73f9352819f5119b5f3445d7",
       "blender_version": "5.3.7",
       "url": "AssetPacks/Asset%20Pack%20-%20Chairs_Repack/Ingolf%20Chair.blend"
     },
@@ -14433,6 +14520,13 @@
       "url": "AssetPacks/Asset%20Pack%20-%20HousewaresAndDecorationsV3_Repack/Pillar%20Candle%20Holder%201.blend"
     },
     {
+      "path": "AssetPacks/Asset Pack - HousewaresAndDecorationsV3_Repack/Pillar Candle Holder 2.blend",
+      "size_in_bytes": 333221,
+      "hash": "SHA256:a1326cca69df62894b37f762c4656ef72065b38f8adad282a4c4f180ae3d0f45",
+      "blender_version": "5.3.7",
+      "url": "AssetPacks/Asset%20Pack%20-%20HousewaresAndDecorationsV3_Repack/Pillar%20Candle%20Holder%202.blend"
+    },
+    {
       "path": "AssetPacks/Asset Pack - HousewaresAndDecorationsV3_Repack/Plastic Basket.blend",
       "size_in_bytes": 294395,
       "hash": "SHA256:31fd280566be4c56c9b7971f27a3865a518ac4b0da24e3d2dc01c83badf47be2",
@@ -14704,6 +14798,13 @@
       "hash": "SHA256:8e82a27cdf78b714f8c1ba722e3e2deaa71f5ff8fd8755f28ca413af2791d0d5",
       "blender_version": "5.3.7",
       "url": "AssetPacks/Asset%20Pack%20-%20HousewaresAndDecorationsV3_Repack/WhiteRook.blend"
+    },
+    {
+      "path": "AssetPacks/Asset Pack - Lamps_Repack/Desk Lamp.blend",
+      "size_in_bytes": 381489,
+      "hash": "SHA256:28fc9aec7691427aa7501986f075a5d62d96c576be394954ea1cb85d25a881b4",
+      "blender_version": "5.3.7",
+      "url": "AssetPacks/Asset%20Pack%20-%20Lamps_Repack/Desk%20Lamp.blend"
     },
     {
       "path": "AssetPacks/Asset Pack - Lamps_Repack/Fancy Lamp 1.blend",
@@ -15516,6 +15617,13 @@
       "hash": "SHA256:12a1900d27a4a4e3e108c4479dadf10d9c32b815f04e694cc9b49df69f1b4d3c",
       "blender_version": "5.3.7",
       "url": "AssetPacks/Asset%20Pack%20-%20MoldingProfiles_Repacked/Cornerbead%206154.blend"
+    },
+    {
+      "path": "AssetPacks/Asset Pack - MoldingProfiles_Repacked/Cornerbead 6155 B.blend",
+      "size_in_bytes": 113235,
+      "hash": "SHA256:db991bde6601e75cfb794fd3f0f18423e43a773f86409e99374461fcad776365",
+      "blender_version": "5.3.7",
+      "url": "AssetPacks/Asset%20Pack%20-%20MoldingProfiles_Repacked/Cornerbead%206155%20B.blend"
     },
     {
       "path": "AssetPacks/Asset Pack - MoldingProfiles_Repacked/Cornerbead 6159 2.blend",
